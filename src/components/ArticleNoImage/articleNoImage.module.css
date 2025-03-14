@@ -1,0 +1,23 @@
+.article {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1rem;
+    border-bottom: 2px solid #000;
+
+
+}
+
+.nameAndDate {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 0;
+}
+
+.deck {
+    font-weight: bold;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

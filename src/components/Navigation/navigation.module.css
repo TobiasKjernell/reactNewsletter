@@ -1,0 +1,19 @@
+.navigation {
+    background-color: #000;
+    padding: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigationContainer {
+    display: flex;
+}
+
+.date {
+    color: #fff;
+}
+
+.menu {
+    color: #fff;
+    text-decoration: underline;
+}

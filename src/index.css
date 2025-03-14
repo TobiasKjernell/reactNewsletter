@@ -1,0 +1,24 @@
+:root {
+
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  height: 100%;
+}
+
+.articleContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 0 8rem;
+  padding-bottom: 2rem;
+} 

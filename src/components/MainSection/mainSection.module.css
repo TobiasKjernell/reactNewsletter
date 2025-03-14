@@ -1,0 +1,87 @@
+.articlesContainer {
+    display: flex;
+}
+
+.leftContainer,
+.rightContainer {
+    flex: 0 0 20%;
+    height: 100%;
+    border-top: 1px solid #000;
+}
+
+.sideHeader {
+    font-size: 2rem;
+    text-decoration: underline;
+}
+
+.deck {
+    font-size: 1.2rem;
+}
+
+.midContainer {
+    flex: 1;
+    padding: 1rem;
+    margin: 0 1rem;
+    border: 1px solid #000;
+}
+
+.midArticle {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+
+    &:hover {
+        h2 {
+            text-decoration: underline;
+        }
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        padding-top: 2rem;
+    }
+
+    p {
+        font-size: 1.2rem;
+        padding: 2rem 0;
+    }
+}
+
+.midFooter {
+    display: flex;
+    justify-content: space-between;
+}
+
+.stats {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 20rem;
+
+}
+
+.user {
+    display: flex;
+    flex-wrap: wrap;
+
+    img {
+        width: 3rem;
+        height: auto;
+        border-radius: 50%;
+        border: 1px solid #000;
+    }
+
+    .userContainer {
+        display: flex;
+        align-items: start;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 1rem;
+    }
+}
+
+.midImage {
+    width: 100%;
+    height: auto;
+}
